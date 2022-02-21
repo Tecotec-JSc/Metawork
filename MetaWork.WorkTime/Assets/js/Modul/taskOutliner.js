@@ -13,7 +13,7 @@ $(document).on("click", ".addNewTaskOutliner", function () {
 function GetTrId() {
     var tr = $('#tableTaskOutline tr.selected');
     if (!tr || tr.length == 0 || tr[0].id == "tr-" + projectIdM + "-0") {
-
+        $("#tr" + projectIdM+"-0").html("")
     } else {
 
     }

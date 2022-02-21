@@ -173,7 +173,7 @@
         @if (Model.CongViecs != null && Model.CongViecs.Count > 0) { 
             foreach(var item in Model.CongViecs)
                 {
-                    <tr id="tr-@item.CongViecId-0">
+                    <tr id="tr-@Model.DuAnId-@item.CongViecId">
                        
                     </tr>
                 }
